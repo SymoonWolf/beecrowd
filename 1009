@@ -1,0 +1,17 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    /**
+     * Escreva a sua solução aqui
+     * Code your solution here
+     * Escriba su solución aquí
+     */
+     char a;
+    float b, c;
+    scanf("%s%f%f", &a, &b, &c);
+    printf("TOTAL = R$ %.2f\n", (c * 0.15) + b);
+     
+ 
+    return 0;
+}

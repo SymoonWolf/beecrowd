@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    /**
+     * Escreva a sua solução aqui
+     * Code your solution here
+     * Escriba su solución aquí
+     */
+     double a, b;
+    scanf("%lf", &a);
+    b = (4 / 3.0) * 3.14159 * a * a * a;
+    printf("VOLUME = %.3lf\n", b);
+    return 0;
+}

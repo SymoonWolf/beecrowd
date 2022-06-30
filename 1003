@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    /**
+     * Escreva a sua solução aqui
+     * Code your solution here
+     * Escriba su solución aquí
+     */
+     int R, A, SOMA;
+     scanf("%d%d", &R, &A);
+     SOMA = R + A;
+    printf("SOMA = %d\n", SOMA);
+ 
+    return 0;
+}

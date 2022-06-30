@@ -1,0 +1,17 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    /**
+     * Escreva a sua solução aqui
+     * Code your solution here
+     * Escriba su solución aquí
+     */
+     float a, b, c, d;
+    scanf("%f%f", &a, &b);
+    c = 3.5;
+    d = 7.5;
+    printf("MEDIA = %.5f\n", ((a*c)+(b*d))/(c+d));
+ 
+    return 0;
+}

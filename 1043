@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    float x, y, c;
+    scanf("%f%f%f", &x, &y, &c);
+    if(x+y>c && x+c>y && y+c>x)
+        {
+            printf("Perimetro = %.1f\n", x+y+c);
+        }
+        else
+        {
+            printf("Area = %.1f\n", .5*(x+y)*c);
+        }
+    return 0;
+}
